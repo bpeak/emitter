@@ -25,3 +25,7 @@ setInterval(() => {
 setTimeout(() => {
     off()
 }, 3000)
+
+setTimeout(() => {
+    emitter.offAll()
+}, 6000)

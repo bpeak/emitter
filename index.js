@@ -24,6 +24,9 @@ class Emitter {
             })
         }
     }
+    offAll() {
+        this._events.clear()
+    }
 }
 
 module.exports = Emitter
